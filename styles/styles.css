@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/bg.jpg');
+}
+
+img {
+    width: 100%;
+}
+
+.carousel-image {
+    background-image: url('../images/top-image.png');
+    background-position-y: 25%;
+    border: 10px solid white;
+    background-repeat: no-repeat;
+}
+
+.grid {
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 30%;
+}
+
