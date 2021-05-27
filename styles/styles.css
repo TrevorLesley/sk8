@@ -105,3 +105,76 @@ a {
         width: 65px;
     }
 }
+
+#contact {
+    background-color: white;
+    margin: 50px 0;
+    border-bottom: solid 3px #877676;
+    /* height: 365px; */
+  }
+  
+  .form, .contact-sheet {
+    padding: 30px;
+    position: relative;
+  }
+  
+  .form > input {
+    margin: 5px;
+    width: 100%;
+  }
+  
+  .form > textarea {
+    margin: 5px;
+    width: 100%;
+  }
+  
+  .form > button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: #A63634;
+  border-bottom: solid 3px #877676;
+  height: 45px;
+  width: 250px;
+  color: white;
+  }
+  
+  .fa-facebook-f {
+    background-color: #485793;
+    padding: 10px;
+    margin: 5px;
+    color: #7882AE;
+  }
+  
+  .fa-rss {
+    background-color: #C39245;
+    padding: 10px;
+    margin: 5px;
+    color: #D1AE71;
+  }
+  
+  .fa-twitter {
+    background-color: #718CC2;
+    padding: 10px;
+    margin: 5px;
+    color: #95A6D0;
+  }
+  
+  .fa-youtube {
+    background-color: #A44134;
+    padding: 10px;
+    margin: 5px;
+    color: #B96C64;
+  }
+  
+  .icon--nav > li {
+    color: white;
+    text-align: right;
+  }
+  
+  @media (max-width: 690px) {
+    .form > button {
+      bottom: 1px;
+      height: 30px;
+    }
+  }
